@@ -1,0 +1,25 @@
+{	"name" : "TB6612-Pi-JS",
+	"version" : "0.0.1",
+	"license" : "MIT",
+	"description" : "Drive a TB6612 motor controller in node.js on a Raspberry Pi",
+	"author" : {
+		"name" : "echicken",
+		"email" : "echicken@bbs.electronicchicken.com"
+	},
+	"main" : "./index.js",
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/echicken/TB6612-Pi-JS.git"
+	},
+	"dependencies" : {
+		"pigpio" : "0.6.4"
+	},
+	"engines" : {
+		"node" : ">= 6.11.3"
+	},
+	"keywords" : [
+        "TB6612",
+        "motor",
+        "raspberry"
+	]
+}
